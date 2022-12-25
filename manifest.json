@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "LinkLister",
+    "description": "Collects all the links open in the browser and displays them in a dialog box.",
+    "version": "1.0.0",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "32": "assets/icons8-shorten-urls-32.png",
+        "48": "assets/icons8-shorten-urls-48.png",
+        "96": "assets/icons8-shorten-urls-96.png",
+        "144": "assets/icons8-shorten-urls-144.png"
+    },
+    "author": "0xCardinal aka Kumar Ashwin",
+    "homepage_url": "https://0xcardinal.com"
+}
+
+  
